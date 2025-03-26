@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        .card {
+            width: 150px;
+            background: #000;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 2px 5px 2px 5px;
+            text-align: center;
+            border: 5px solid yellow;
+            position: relative;
+            overflow: hidden;
+        }
+        .image-container {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid yellow;
+            margin: 0 auto 10px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+        .content {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+        .price {
+            background: yellow;
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image-container">
+            <img src="/Images/Kurkure_Cheese_Chiken_Momos-removebg-preview.png" alt="Kurkure_Cheese_Chiken_Momos">
+        </div>
+        <div class="content">
+            <div class="item-name">Kurkure Cheese Chiken Momos</div>
+            <div class="price">₹80</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image-container">
+            <img src="/Images/Kurkure_Cheese_Chiken_Momos-removebg-preview.png" alt="Kurkure_Cheese_Chiken_Momos">
+        </div>
+        <div class="content">
+            <div class="item-name">Kurkure Cheese Chiken Momos</div>
+            <div class="price">₹80</div>
+        </div>
+    </div>
+</body>
+</html>

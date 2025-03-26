@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Layout</title>
+    <style>
+        body {
+            background-image: url(/Images/Background_black.png);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .main-section {
+            display: flex;
+            gap: 20px;
+            width: 80%;
+        }
+        .menu-section {
+            flex: 1;
+            background: transparent;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .veg_header, .non-veg_header {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #veg_icon, #non-veg_icon {
+            width: 25px;
+            vertical-align: middle;
+            padding: 0px 5px;
+        }
+        .menu_item_header {
+            background-image: url(/Images/menu_bg_.png);
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+            height: auto;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+        .menu-items {
+            padding: 10px;
+        }
+        .menu-item {
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 2px dotted #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+        <div class="menu-section">
+            <div class="veg_header"><img id="veg_icon" src="/Images/veg_icon.png">Veg Menu</div>
+            <div class="menu-items">
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+            </div>
+        </div>
+        <div class="menu-section">
+            <div class="menu_item_header">
+                <span>Menu Items</span><br>
+                <span>Steam / Fried / Kurkure </span><br>
+                <span>(F-8/H-4)|(F-8/H-4)|6(pcs)</span>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item"><span>Chicken Chilly Cheese Momo</span><span>₹115/75 120/85 150</span></div>
+                <div class="menu-item"><span>Chicken Chilly Cheese Momo</span><span>₹115/75 120/85 150</span></div>
+                <div class="menu-item"><span>Chicken Chilly Cheese Momo</span><span>₹115/75 120/85 150</span></div>
+                <div class="menu-item"><span>Chicken Chilly Cheese Momo</span><span>₹115/75 120/85 150</span></div>
+                <div class="menu-item"><span>Chicken Chilly Cheese Momo</span><span>₹115/75 120/85 150</span></div>
+                <div class="menu-item"><span>Chicken Chilly Cheese Momo</span><span>₹115/75 120/85 150</span></div>
+            </div>
+        </div>
+        <div class="menu-section">
+            <div class="non-veg_header"><img id="non-veg_icon" src="/Images/non_veg_icon.png">Non-Veg Menu</div>
+            <div class="menu-items">
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+                <div class="menu-item"><span>Classic Chicken Momo</span><span>₹90/55 100/65 110</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
